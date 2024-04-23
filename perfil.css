@@ -1,0 +1,201 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 850px;
+}
+.navb {
+    background-color: rgb(116, 115, 115);
+    color: #fff;
+    font-size: 26px;
+    width: 1880px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position:fixed;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    z-index: 100;
+}
+
+.perfil a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 28px;
+    padding: 30px;
+    display: flex;
+}
+.perfil a{
+    color:white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.perfil a:hover{
+    color:blue;
+}
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.nav-links li a {
+    color:white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.boton{
+    border-radius: 5px;
+    height: 25px;
+    position: relative;
+    bottom: 5px;
+    border:none;
+    color: #fff;
+    background-color: aqua;
+    cursor: pointer;
+}  
+.nav-links li a {
+    color:white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.nav-links li a:hover {
+    color: blue;
+} 
+.container{
+    border-radius:10px;
+    width: 1000px;
+    height: 570px;
+    position: relative;
+    left: 20px;
+    top: 120px;
+    box-shadow: 3px 3px 3px 3px rgb(201, 201, 201);
+}
+.color{
+
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+    height: 100px;
+    width:100%;
+    display:flex;
+    background-color: aquamarine;
+
+}
+.pimg{
+   border-radius: 100%;
+   height: 130%;
+   position: relative;
+   top:60%;
+   left: 6%;
+   border:3px solid white;
+}
+#titulo{
+    margin-top:130px;
+    margin-left: 60px;
+}
+.texto{
+    font-size: 20px;
+    margin-top: 150px;
+    margin-right: 60px;
+    margin-left: 60px;
+    color: rgb(27, 27, 27);
+}
+.segboton{
+    height: 40px;
+    width: 100px;
+    color: blue;
+    margin-left: 60px;
+    margin-top: 20px;    
+    border:none; 
+    cursor:pointer;
+}
+.segcontainer{
+    font-size: 23px;
+    width: 1000px;
+    height: 230px;
+    border-radius: 10px;
+    position: relative;
+    left: 20px;
+    top: 150px;
+    box-shadow:3px 3px 3px 3px rgb(184, 184, 184) ;
+}
+.segtexto{
+    padding-top: 1px;
+    padding-left: 20px;
+    color: rgb(27, 27, 27);
+}
+.tercontainer{
+    font-size: 25px;
+    border-radius: 10px;
+    width: 570px;
+    height: 250px;
+    padding-left: 20px;
+    position: relative;
+    left: 1150px;
+    bottom: 710px;
+    border:none;
+    box-shadow: 3px 3px 3px 3px rgb(197, 197, 197);
+}
+
+.simg{
+    border-radius: 30%;
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 15px;
+    display: flex;
+    border:2px solid rgb(117, 192, 221);
+}
+.terboton{
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    margin-left:15px;
+    margin-top:15px;
+    color:rgb(238, 125, 144);
+    background-color: white;
+    cursor: pointer;
+    border:1px solid rgb(243, 125, 144);
+}
+.terboton2{
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    margin-left:15px;
+    margin-top:15px;
+    color:rgb(238, 125, 144);
+    background-color: white;
+    cursor: pointer;
+    border:1px solid rgb(243, 125, 144);
+}
+.cuarcontainer{
+    font-size: 24px;
+    border-radius: 10px;
+    width: 570px;
+    height: auto;
+    padding-left: 20px;
+    position: relative;
+    left: 1150px;
+    bottom: 705px;
+    border:none;
+    box-shadow: 3px 3px 3px 3px rgb(206, 206, 206);
+}
+.display{
+    display: flex;
+}
+#top{
+    padding-top:10px;
+}
+.timg{
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 10px;
+    display: flex;
+    border:2px solid grey;
+}
